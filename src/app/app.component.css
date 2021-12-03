@@ -1,0 +1,78 @@
+/*header*/
+.header
+{
+    position: sticky;
+    top: 0;
+}
+ul
+{
+    list-style-type: none;
+    background-color: #132543;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;          
+}
+
+.ig
+{
+    float: left;
+    padding-left: 100px;
+}
+.og
+{
+    margin-top: 33px;
+    float: right;
+    margin-right: 30px;
+    
+}
+li a:hover
+{
+    color: #aa9172 ;
+}
+
+li a 
+{
+    
+    padding: 6px;
+    display: block;
+    transition: 0.3s;    
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*footer*/
+span
+{
+    padding-left: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.oc
+{
+    text-decoration: underline;
+    font-size: 20px;
+    float: left;
+    margin: 100px;
+    padding-left: 29px;
+
+}
+.afut
+{
+    color: gray;
+}
+.foot
+{
+    position: fixed;
+    bottom: 0;
+}
+
+
+

@@ -1,7 +1,21 @@
+@font-face 
+{
+    font-family: "VALORANT";
+    src: local("VALORANT"), url(../assets/VALORANT.ttf) format("truetype");
+}
+@font-face 
+{
+    font-family: "NewYork";
+    src: local("NewYork"), url(../assets/NewYork.otf) format("truetype");
+}
+body
+{
+ max-width: 100%;
+}
 /*header*/
 .header
 {
-    position: sticky;
+    position:relative;
     top: 0;
 }
 ul
@@ -60,8 +74,8 @@ span
     
     font-size: 20px;
     float: left;
-    margin: 100px;
-    padding-left: 29px;
+    margin: 50px;
+    padding-left: 80px;
 
 }
 #afut
@@ -77,8 +91,52 @@ span
 }
 .foot
 {
-    position: fixed;
+    position: relative;
     bottom: 0;
+    width: 100%;
+}
+
+/*title*/
+.first
+{
+    background-image: url("../assets/hotel.jpg");
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 880px;
+    z-index: -1;
+    position: relative; 
+    
+
+}
+.welcome_p
+{
+    top: 100px;
+    position: relative;
+    font-size: 200px;
+    opacity: 0;
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes welcome
+{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+/*radio button and combo box*/
+.second 
+{
+    background-image: url("../assets/roombackground.jpg");
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 880px;
+    
+    position: relative; 
 }
 
 

@@ -15,8 +15,9 @@ body
 /*header*/
 .header
 {
-    position:relative;
+    position: sticky;
     top: 0;
+    z-index: 1;
 }
 ul
 {
@@ -61,40 +62,7 @@ a
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*footer*/
-span
-{
-    padding-left: 10px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-.oc
-{
-    
-    font-size: 20px;
-    float: left;
-    margin: 50px;
-    padding-left: 80px;
 
-}
-#afut
-{
-    color: #6e6e6e;
-    text-decoration: underline;
-}
-
-#afut:hover
-{
-    color: gray;
-    
-}
-.foot
-{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
 
 /*title*/
 .first
@@ -127,7 +95,43 @@ span
     to{opacity: 1;}
 }
 /*radio button and combo box*/
+#rooms
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    float: left;
+    margin: 50px;
+    padding-left: 550px;
+    text-decoration: underline overline #cba36f;
+    
+}
+.secondbig
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    position: relative; 
+    
+}
 .second 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(130, 129, 129);
+    background-color: rgb(223, 223, 223);
+    margin: auto;
+    width: 80%;
+    border: 3px solid #cba36f;
+    padding: 10px; 
+}
+.whitebox
+{
+    background-color: whitesmoke;
+    padding: 10px
+}
+.third
 {
     background-image: url("../assets/roombackground.jpg");
     background-color: beige;
@@ -135,9 +139,63 @@ span
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 880px;
-    
     position: relative; 
+   
 }
 
+input
+{
+float:left;
+}
 
+label
+{
+    background-color:#132543;
+    height: 80px;
+    padding: 10px;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    color: white;
+    font-family: Consolas;
+    font-size: 20px;
+    ;opacity: 97%
+    ;border-radius: 30px
+}
 
+/*footer*/
+span
+{
+    padding-left: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.oc
+{
+    
+    font-size: 20px;
+    float: left;
+    margin: 50px;
+    padding-left: 80px;
+
+}
+#afut
+{
+    color: #6e6e6e;
+    text-decoration: underline;
+
+}
+
+#afut:hover
+{
+    color: gray;
+    
+}
+.foot
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -94,7 +94,55 @@ a
     from{opacity:0;}
     to{opacity: 1;}
 }
-/*radio button and combo box*/
+/*radio box*/
+.junior
+{
+    float:right;
+}
+.rbox
+{
+    background-color:#132543;
+    height: 80px;
+    padding: 10px;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    ;opacity: 97%
+    
+}
+.rbox2
+{
+    background-color:#132543;
+    height: 80px;
+    padding: 10px;
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    ;opacity: 97%
+    ;border-radius: 30px
+}
+.bedr
+{
+width: 100px;
+}
+.bedt
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black ;
+    font-size: 40px;
+    float: left;
+    margin: 50px;
+    padding-left: 550px;
+    text-decoration: underline overline #cba36f;
+    text-align: center;
+}
+/*date and combo box*/
 #rooms
 {
     font-family: 'Times New Roman', Times, serif;
@@ -104,7 +152,6 @@ a
     margin: 50px;
     padding-left: 550px;
     text-decoration: underline overline #cba36f;
-    
 }
 .secondbig
 {
@@ -174,53 +221,6 @@ float:left;
     
 }
 
-.junior
-{
-    float:right;
-}
-.rbox
-{
-    background-color:#132543;
-    height: 80px;
-    padding: 10px;
-    width: 30%;
-    float: left;
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    ;opacity: 97%
-    
-}
-.rbox2
-{
-    background-color:#132543;
-    height: 80px;
-    padding: 10px;
-    width: 30%;
-    float: right;
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    ;opacity: 97%
-    ;border-radius: 30px
-}
-.bedr
-{
-width: 100px;
-}
-.bedt
-{
-    font-family: 'Times New Roman', Times, serif;
-    color: black ;
-    font-size: 40px;
-    float: left;
-    margin: 50px;
-    padding-left: 550px;
-    text-decoration: underline overline #cba36f;
-    text-align: center;
-}
 /*footer*/
 span
 {

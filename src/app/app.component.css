@@ -147,6 +147,7 @@ input
 {
 float:left;
 }
+
 label
 {
     background-color:#132543;
@@ -160,7 +161,8 @@ label
     font-size: 20px;
     ;opacity: 97%
     ;border-radius: 30px
-=======
+}
+
 /*footer*/
 span
 {
@@ -169,6 +171,7 @@ span
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 .oc
 {
     

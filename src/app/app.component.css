@@ -122,9 +122,10 @@ a
     color: rgb(130, 129, 129);
     background-color: rgb(223, 223, 223);
     margin: auto;
-    width: 80%;
+    width: 50%;
     border: 3px solid #cba36f;
     padding: 10px; 
+   
 }
 .whitebox
 {
@@ -147,7 +148,28 @@ input
 {
 float:left;
 }
-
+.JYlabel
+{
+    background-color:#2d4267;
+    height: 45px;
+    padding: 10px;
+    width: 14%;
+    box-sizing: border-box;
+    color: white;
+    font-family: Consolas;
+    font-size: 20px;
+}
+.JYlabel2
+{
+    background-color:#2d4267;
+    height: 45px;
+    padding: 10px;
+    width: 17%;
+    box-sizing: border-box;
+    color: white;
+    font-family: Consolas;
+    font-size: 20px;
+}
 label
 {
     background-color:#132543;
@@ -160,7 +182,7 @@ label
     font-family: Consolas;
     font-size: 20px;
     ;opacity: 97%
-    ;border-radius: 30px
+    
 }
 
 /*footer*/

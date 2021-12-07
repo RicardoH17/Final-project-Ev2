@@ -4,11 +4,11 @@
   <ul>
     <li class="ig"><a><img class="logo" src="https://hotelplatinord.com/wp-content/uploads/2020/09/new-logo-1024x341-1.png"></a></li>
       
-    <li class="og" href= .first><a>SERVICES</a></li>
-    <li class="og" href= .first><a >ABOUT US</a></li>
-    <li class="og" href= .first><a >BOOK NOW</a></li>
-    <li class="og" href= .secondbig><a >ROOMS AND SUITES</a></li> 
-    <li class="og" href= .first><a >HOTEL</a></li>
+    <li class="og"><a href= .first>SERVICES</a></li>
+    <li class="og"><a href= .first>ABOUT US</a></li>
+    <li class="og"><a href= .first>BOOK NOW</a></li>
+    <li class="og"><a href= .secondbig>ROOMS AND SUITES</a></li> 
+    <li class="og"><a href= #first>HOTEL</a></li>
     <!--href no funciona-->
         
   </ul>
@@ -16,38 +16,16 @@
 
   <!--title-->
   
-  <div class="first" style="text-align: center; display: block; margin:auto;">
+  <div class="first" id="first" style="text-align: center; display: block; margin:auto;">
     <span class="welcome_p" >
       <span style="font-size:150px; font-family: VALORANT">HOTEL</span> <span style=" font-size:250px; color: rgb(196, 196, 196) ; font-family: 'Times New Roman', Times, serif " > PLATINO</span>
        
    </span>
   </div>
 
-<!--Date-->
-<div class="secondbig">
-  <span id="rooms">Rooms and Suites</span>
-  <br><br><br><br><br><br><br><br><br><br>
-<div class="second">
-  
-<div class="whitebox">
-  <label for="date">Arrival</label>
-  <duet-date-picker identifier="date"></duet-date-picker>
 
 
-
-  <label for="date">Departure</label>
-  <duet-date-picker identifier="date"></duet-date-picker>
-
-  COMBOBOX
-  BUTTON 
-</div>
-
-
-</div>
-<br><br><br>
-</div>
-
-<!--radio button and combo box-->
+<!--radio button -->
 
 <div class="third">
 <form>
@@ -62,7 +40,29 @@
       <label for="JUNIOR_SUITE_DELUXE">JUNIOR SUITE DELUXE $77.81</label><br><br>
 </form>
 </div>  
+<!--Date and combo box and button-->
+<div class="secondbig">
+  <span id="rooms">Rooms and Suites</span>
+  <br><br><br><br><br><br><br><br><br><br>
+<div class="second">
+  
+<div class="whitebox">
+  <label class="JYlabel" for="date">Arrival</label>
+  <duet-date-picker identifier="date"></duet-date-picker>
 
+
+
+  <label class="JYlabel2" for="date">Departure</label>
+  <duet-date-picker identifier="date"></duet-date-picker>
+
+  COMBOBOX
+  BUTTON 
+</div>
+
+
+</div>
+<br><br><br>
+</div>
 
 <!--footer-->
 
@@ -71,7 +71,9 @@
 
    <li class="oc"><span> Phone number: <a id="afut">(809) 724-7576</a></span></li>
    <li class="oc"><span> Address: <a id="afut" >Ave. Estrella Sadhala, Santiago De Los<br> Caballeros, 51000, Dominican Republic </a></span></li>
-   <li class="oc"><span> Schedule: <a id="afut">Open 24 Hours</a></span></li>
+   <li class="oc"><span> Schedule: <a id="afut">Check-in time starts at 3 PM <br>
+    Check-out time is 1:00 PM
+    </a></span></li>
   
    
   </ul>

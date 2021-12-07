@@ -1,8 +1,14 @@
 <body>
-  <!--header-->
-  <nav class="header">  
-    <ul>
-      <li class="ig"><a><img class="logo" src="https://hotelplatinord.com/wp-content/uploads/2020/09/new-logo-1024x341-1.png"></a></li>
+<!--header-->
+<nav class="header">  
+  <ul>
+    <li class="ig"><a><img class="logo" src="https://hotelplatinord.com/wp-content/uploads/2020/09/new-logo-1024x341-1.png"></a></li>
+      
+    <li class="og"><a href= #fourth>ABOUT US</a></li>
+    <li class="og"><a href= #third>ROOM AND SUITES</a></li>
+    <li class="og"><a href= #second>BEDROOM TYPES</a></li> 
+    <li class="og"><a href= #first>HOTEL</a></li>
+    <!--href no funciona-->
         
       <li class="og" href= .first><a>SERVICES</a></li>
       <li class="og" href= .first><a >ABOUT US</a></li>
@@ -14,59 +20,71 @@
     </ul>
     </nav>
   
-    <!--title-->
-    
-    <div class="first" style="text-align: center; display: block; margin:auto;">
-      <span class="welcome_p" >
-        <span style="font-size:150px; font-family: VALORANT">HOTEL</span> <span style=" font-size:250px; color: rgb(196, 196, 196) ; font-family: 'Times New Roman', Times, serif " > PLATINO</span>
-         
-     </span>
-    </div>
-  
-  <!--Date-->
-  <div class="secondbig">
-    <span id="rooms">Rooms and Suites</span>
-    <br><br><br><br><br><br><br><br><br><br>
-  <div class="second">
-    
-  <div class="whitebox">
-    <label for="date">Arrival</label>
-    <duet-date-picker identifier="date"></duet-date-picker>
-  
-  
-  
-    <label for="date">Departure</label>
-    <duet-date-picker identifier="date"></duet-date-picker>
-  <app-button class="buttoncss"></app-button>
-    
+  <div class="first" id="first" style="text-align: center; display: block; margin:auto;">
+    <span class="welcome_p" >
+      <span style="font-size:150px; font-family: VALORANT">HOTEL</span> <span style=" font-size:250px; color: rgb(196, 196, 196) ; font-family: 'Times New Roman', Times, serif " > PLATINO</span>
+       
+   </span>
   </div>
+
+
+<!--radio button -->
+
+
+<div class="third" id="second" >
+  <form><br><br><br><br><br>
+    <p class="bedt" >Bedroom Types:</p><br><br><br><br><br>
+      <br><br><br><br><br><input class="exec" type="radio" id="EXECUTIVE_SUPERIOR" name="select_room" value="EXECUTIVE_SUPERIOR">
+        <label  class="rbox" for="EXECUTIVE_SUPERIOR">EXECUTIVE SUPERIOR $46.12<img class="bedr" src="../assets/executivesuperior.jpg"></label>
+    <input  class="junior" type="radio" id="JUNIOR_SUITE" name="select_room" value="JUNIOR_SUITE">
+        <label  class="rbox2" for="JUNIOR_SUITE">JUNIOR SUITE $61.69<img class="bedr" src="../assets/juniorsuite.jpg"></label><br><br><br><br><br><br>
   
-  
-  </div>
-  <br><br><br>
-  </div>
-  
-  <!--radio button and combo box-->
-  
-  <div class="third">
-  <form>
-    <p>Bedroom Types:</p>
-      <input type="radio" id="EXECUTIVE_SUPERIOR" name="select_room" value="EXECUTIVE_SUPERIOR">
-        <label for="EXECUTIVE_SUPERIOR">EXECUTIVE SUPERIOR $46.12</label><br><br><br><br><br>
-      <input type="radio" id="EXECUTIVE_DELUXE " name="select_room" value="EXECUTIVE_DELUXE">
-        <label for="EXECUTIVE_DELUXE">EXECUTIVE DELUXE $60.02</label><br><br><br><br><br><br>
-      <input type="radio" id="JUNIOR_SUITE" name="select_room" value="JUNIOR_SUITE">
-        <label for="JUNIOR_SUITE">JUNIOR SUITE $61.69</label><br><br><br><br><br><br>
-      <input type="radio" id="JUNIOR_SUITE_DELUXE " name="select_room" value="JUNIOR_SUITE_DELUXE">
-        <label for="JUNIOR_SUITE_DELUXE">JUNIOR SUITE DELUXE $77.81</label><br><br>
+     <input  class="exec" type="radio" id="EXECUTIVE_DELUXE " name="select_room" value="EXECUTIVE_DELUXE">
+        <label class="rbox" for="EXECUTIVE_DELUXE">EXECUTIVE DELUXE $60.02<img class="bedr" src="../assets/executivedeluxe.jpg"></label>
+     
+      <input  class="junior" type="radio" id="JUNIOR_SUITE_DELUXE " name="select_room" value="JUNIOR_SUITE_DELUXE">
+        <label  class="rbox2" for="JUNIOR_SUITE_DELUXE">JUNIOR SUITE DELUXE $77.81<img class="bedr" src="../assets/juniorsuitedeluxe.jpg"></label>
   </form>
   </div>  
   
+
+
+<!--Date and combo box and button-->
+<div class="secondbig" id="third">
+  <br><br><br><br><br>
+  <span id="rooms">Rooms and Suites</span>
+  <br><br><br><br><br><br><br><br><br><br>
+<div class="second">
   
-  <!--footer-->
-  
-  <footer><nav class="foot">  
-    <ul style="background-color: #0b1629 ;">
+<div class="whitebox">
+  <br>
+  <label  class="JYlabel" for="date">Arrival</label>
+  <duet-date-picker identifier="date"></duet-date-picker>
+
+
+
+  <label class="JYlabel2" for="date">Departure</label>
+  <duet-date-picker identifier="date"></duet-date-picker>
+
+  COMBOBOX
+  BUTTON 
+</div>
+
+</div>
+<br><br><br>
+</div>
+
+
+<!--footer-->
+
+<footer id="fourth"><nav class="foot">  
+  <ul style="background-color: #0b1629 ;">
+
+   <li class="oc"><span> Phone number: <a id="afut">(809) 724-7576</a></span></li>
+   <li class="oc"><span> Address: <a id="afut" >Ave. Estrella Sadhala, Santiago De Los<br> Caballeros, 51000, Dominican Republic </a></span></li>
+   <li class="oc"><span> Schedule: <a id="afut">Check-in time starts at 3 PM <br>
+    Check-out time is 1:00 PM
+    </a></span></li>
   
      <li class="oc"><span> Phone number: <a id="afut">(809) 724-7576</a></span></li>
      <li class="oc"><span> Address: <a id="afut" >Ave. Estrella Sadhala, Santiago De Los<br> Caballeros, 51000, Dominican Republic </a></span></li>

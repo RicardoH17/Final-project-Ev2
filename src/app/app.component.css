@@ -94,7 +94,55 @@ a
     from{opacity:0;}
     to{opacity: 1;}
 }
-/*radio button and combo box*/
+/*radio box*/
+.junior
+{
+    float:right;
+}
+.rbox
+{
+    background-color:#132543;
+    height: 80px;
+    padding: 10px;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    ;opacity: 97%
+    
+}
+.rbox2
+{
+    background-color:#132543;
+    height: 80px;
+    padding: 10px;
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    ;opacity: 97%
+    ;border-radius: 30px
+}
+.bedr
+{
+width: 100px;
+}
+.bedt
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black ;
+    font-size: 40px;
+    float: left;
+    margin: 50px;
+    padding-left: 550px;
+    text-decoration: underline overline #cba36f;
+    text-align: center;
+}
+/*date and combo box*/
 #rooms
 {
     font-family: 'Times New Roman', Times, serif;
@@ -104,7 +152,6 @@ a
     margin: 50px;
     padding-left: 550px;
     text-decoration: underline overline #cba36f;
-    
 }
 .secondbig
 {
@@ -112,7 +159,7 @@ a
     background-color: whitesmoke;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 600px;
+    min-height: 750px;
     position: relative; 
     
 }
@@ -122,19 +169,21 @@ a
     color: rgb(130, 129, 129);
     background-color: rgb(223, 223, 223);
     margin: auto;
-    width: 80%;
+    width: 40%;
     border: 3px solid #cba36f;
     padding: 10px; 
+   
 }
 .whitebox
 {
     background-color: whitesmoke;
-    padding: 10px
+    padding: 10px;
+    
 }
 .third
 {
-    background-image: url("../assets/roombackground.jpg");
-    background-color: beige;
+    
+    background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -143,24 +192,33 @@ a
    
 }
 
-input
+.exec
 {
 float:left;
 }
 
-label
+.JYlabel
 {
-    background-color:#132543;
-    height: 80px;
+    background-color:#2d4267;
+    height: 45px;
     padding: 10px;
-    width: 30%;
-    float: left;
+    width: 14%;
     box-sizing: border-box;
     color: white;
-    font-family: Consolas;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    ;opacity: 97%
-    ;border-radius: 30px
+}
+.JYlabel2
+{
+    background-color:#2d4267;
+    height: 45px;
+    padding: 10px;
+    width: 17%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
 }
 
 /*footer*/

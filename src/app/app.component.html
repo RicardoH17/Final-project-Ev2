@@ -4,12 +4,12 @@
   <ul>
     <li class="ig"><a><img class="logo" src="https://hotelplatinord.com/wp-content/uploads/2020/09/new-logo-1024x341-1.png"></a></li>
       
-    <li class="og"><a>SERVICES</a></li>
-    <li class="og"><a >BLOG</a></li>
-    <li class="og"><a >ROOMS AND SUITES </a></li> 
-    <li class="og"><a >OFFERS</a></li> 
-    <li class="og"><a >CONTACT</a></li>
-    <li class="og"><a >HOTEL</a></li>
+    <li class="og" href= .first><a>SERVICES</a></li>
+    <li class="og" href= .first><a >ABOUT US</a></li>
+    <li class="og" href= .first><a >BOOK NOW</a></li>
+    <li class="og" href= .secondbig><a >ROOMS AND SUITES</a></li> 
+    <li class="og" href= .first><a >HOTEL</a></li>
+    <!--href no funciona-->
         
   </ul>
   </nav>
@@ -24,13 +24,32 @@
   </div>
 
 <!--Date-->
-<label for="date">Choose a date</label>
-<duet-date-picker identifier="date"></duet-date-picker>
+<div class="secondbig">
+  <span id="rooms">Rooms and Suites</span>
+  <br><br><br><br><br><br><br><br><br><br>
+<div class="second">
+  
+<div class="whitebox">
+  <label for="date">Arrival</label>
+  <duet-date-picker identifier="date"></duet-date-picker>
+
+
+
+  <label for="date">Departure</label>
+  <duet-date-picker identifier="date"></duet-date-picker>
+
+  COMBOBOX
+  BUTTON 
+</div>
+
+
+</div>
+<br><br><br>
+</div>
 
 <!--radio button and combo box-->
-<div class="second">
 
-
+<div class="third">
 <form>
   <p>Bedroom Types:</p>
     <input type="radio" id="EXECUTIVE_SUPERIOR" name="select_room" value="EXECUTIVE_SUPERIOR">

@@ -8,9 +8,8 @@
     font-family: "NewYork";
     src: local("NewYork"), url(../assets/NewYork.otf) format("truetype");
 }
-body
-{
- max-width: 100%;
+body{
+    background-color: whitesmoke;
 }
 /*header*/
 .header
@@ -261,6 +260,8 @@ span
     bottom: 0;
     width: 100%;
 }
+
+/*info*/
 .infodiv
 {
 border-top: 5px solid #cba36f;

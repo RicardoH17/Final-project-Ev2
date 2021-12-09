@@ -131,6 +131,11 @@ a
     border-style: groove;
     border-width: 10px;
 }
+.info
+{
+    width: 400px;
+    height:200px;
+}
 .bedr
 {
 width: 400px;

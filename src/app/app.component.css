@@ -166,8 +166,8 @@ float:right;
     font-size: 40px;
     float: left;
     margin: 50px;
+    margin-left: 40%;
     text-align: center;
-    padding-left: 550px;
     text-decoration: underline overline #cba36f;
 }
 .secondbig

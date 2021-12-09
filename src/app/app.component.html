@@ -64,15 +64,7 @@
   <span id="rooms">Rooms and Suites</span>
   <br><br><br><br><br><br><br><br><br><br>
 <div class="second">
-<label for="guests">How many people will stay?</label>
-<select name="guests" id="guests">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-  <option value="6_or_more">6 or more</option>
-</select>
+
 <div class="whitebox">
   <br>
   <label  class="JYlabel" for="date">Arrival</label>
@@ -81,6 +73,18 @@
   <label class="JYlabel" for="date">Departure</label>
   <duet-date-picker identifier="date"></duet-date-picker>
 
+  <label for="guests" style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bold;">Number of travelers  
+  </label><br>
+  <select name="guests" id="guests">
+    <option value="1">Adults</option>
+    <option value="2">1</option>
+    <option value="3">2</option>
+    <option value="4">3</option>
+    <option value="5">4</option>
+    <option value="6">5</option>
+    <option value="7_or_more">6 or more</option>
+  </select>
+  <br><br>
   <app-button class="buttoncss"></app-button>
 </div>
 

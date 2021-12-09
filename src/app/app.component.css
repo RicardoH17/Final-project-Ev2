@@ -104,7 +104,7 @@ a
     background-color:#132543;
     height: 350px;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     float: left;
     box-sizing: border-box;
     color: white;
@@ -120,7 +120,7 @@ a
     background-color:#132543;
     height: 350px;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     float: right;
     box-sizing: border-box;
     color: white;
@@ -130,6 +130,10 @@ a
     text-align: center;
     border-style: groove;
     border-width: 10px;
+}
+.rbox11
+{
+    color:whitesmoke;
 }
 .bedr
 {
@@ -200,7 +204,7 @@ float:right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 950px;
+    min-height: 1100px;
     position: relative; 
    
 }

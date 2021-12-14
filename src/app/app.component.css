@@ -272,26 +272,32 @@ border-bottom: 5px solid #cba36f;
 
 .info1
 {
-    height:310px;
+    height:320px;
     width: 650px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
-    font-size: 14.5px;
+    padding-left: 120px;
+
 
 }
 .info2
 {
-    height: 310px;
+    height: 320px;
     width: 650px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
+    padding-left: 120px;
+
 }
 .info3
 {
     
     width: 650px;
+    height: 360px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
+    padding-left: 120px;
+
 }
 .imagesdegabo
 {

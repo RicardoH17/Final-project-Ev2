@@ -155,7 +155,7 @@ border-width: 10px;
 {
     font-family: Moderno;
     color: black ;
-    font-size: 40px;
+    font-size: 70px;
     margin: 50px;
     text-decoration: underline #cba36f;
     text-align: center;
@@ -295,6 +295,8 @@ span
             position: relative;
             float: left;
             margin-left:10px;
+            border-radius:30px;
+
 }
 .info2
 {
@@ -314,16 +316,18 @@ span
         position: relative;
         float: right;
         margin-right:10px;
+        border-radius:30px;
 
 
 }
+
 .imagesdegabo1
 {
     height: 600px;
     float: left;
     box-sizing: border-box;
     border-radius: 100px;
-    margin-left:1000px;
+    margin-left:975px;
 
 }
 
@@ -334,7 +338,7 @@ span
     float: left;
     box-sizing: border-box;
     border-radius: 100px;
-    margin-left:10px;
+    margin-left:30px;
 
 }
 .imagesdegabo3
@@ -344,7 +348,7 @@ span
     float: right;
     box-sizing: border-box;
     border-radius: 100px;
-    margin-left:1000px;
+    margin-left:975px;
 }
 .imagesdegabo4
 {
@@ -353,6 +357,6 @@ span
     float: left;
     box-sizing: border-box;
     border-radius: 100px;
-    margin-left:10px;
+    margin-left:30px;
 
 }

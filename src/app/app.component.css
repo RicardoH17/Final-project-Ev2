@@ -270,75 +270,62 @@ span
 
 .info1
 {
-    height:320px;
-    width: 650px;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align:justify;
+    text-align:center;
     padding-left: 120px;
+    background-color:slategrey;
+        height: 350px;
+        padding: 20px;
+        width: 50%;
+        box-sizing: border-box;
+        color: beige;
+        font-size: 17px;
+        opacity: 98%;
+        border-radius: 100px;
+        bottom: 500px;
+        position: relative;
+        float: right;
 
 
 }
 .info2
 {
-    height: 320px;
-    width: 650px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align:justify;
-    padding-left: 120px;
-
-}
-.info3
-{
     
-    width: 650px;
-    height: 360px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align:justify;
+    text-align:center;
     padding-left: 120px;
+    background-color:slategrey;
+        height: 350px;
+        padding: 20px;
+        width: 50%;
+        box-sizing: border-box;
+        color: beige;
+        font-size: 17px;
+        opacity: 98%;
+        border-radius: 100px;
+        bottom: 500px;
+        position: relative;
+        float: left;
+
 
 }
-.imagesdegabo
+.imagesdegabo1
 {
-    width: 400px;
-    height:200px;
-    border-style: groove;
-    border-width: 10px;
-}
-.imagetitle
-{
-
-    height: 350px;
-    width: 45%;
+    width: 1500px;
+    height: 600px;
     float: right;
-    box-sizing: border-box;
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    opacity: 97%;
-    text-align: center;
-    border-style: groove;
-    border-width: 10px; 
-}
-.imagetitle2
-{
-    background-color:#132543;
-    height: 390px;
-    width: 45%;
-    float: right;
-    box-sizing: border-box;
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    opacity: 97%;
-    text-align: center;
-    border-style: groove;
-    border-width: 10px; 
-}
-.imagen2
-{
+    padding-left: 700px;
 
-width: 400px;
-height:200px;
-border-style: groove;
-border-width: 10px;
+}
+
+
+
+.imagesdegabo2
+{
+    width: 1500px;
+    height: 600px;
+    float: left;
+    padding-left: 700px;
+
 }

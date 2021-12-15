@@ -12,6 +12,7 @@ body{
     background-color: whitesmoke;
 }
 /*header*/
+
 .header
 {
     position: sticky;
@@ -66,9 +67,7 @@ a
 /*title*/
 .first
 {
-    background-image: url("../assets/hotel.jpg");
     background-color: beige;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 880px;
@@ -79,14 +78,20 @@ a
 }
 .welcome_p
 {
-    top: 100px;
-    position: relative;
     font-size: 200px;
     opacity: 0;
     animation-name: welcome;
     animation-duration: 2s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+    position: absolute;
+    margin-top: 100px;
+}
+.welcome_b
+{
+    font-size: 200px;
+    position: absolute;
+    margin-top: 100px;
 }
 @keyframes welcome
 {

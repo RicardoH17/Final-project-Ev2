@@ -81,8 +81,8 @@ a
     font-size: 200px;
     opacity: 0;
     animation-name: welcome;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
+    animation-duration: 1.3s;
+    animation-delay: 0.3s;
     animation-fill-mode: forwards;
     position: absolute;
     margin-top: 100px;

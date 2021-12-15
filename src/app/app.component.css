@@ -152,7 +152,7 @@ border-width: 10px;
     color: black ;
     font-size: 40px;
     margin: 50px;
-    text-decoration: underline overline #cba36f;
+    text-decoration: underline #cba36f;
     text-align: center;
     align-items: center;
 }
@@ -172,7 +172,7 @@ float:right;
     margin: 50px;
     margin-left: 40%;
     text-align: center;
-    text-decoration: underline overline #cba36f;
+    text-decoration: underline  #cba36f;
 }
 .secondbig
 {
@@ -267,13 +267,6 @@ span
 }
 
 /*info*/
-.infodiv
-{
-border-top: 5px solid #cba36f;
-border-bottom: 5px solid #cba36f;
-
-
-}
 
 .info1
 {
@@ -313,7 +306,7 @@ border-bottom: 5px solid #cba36f;
 }
 .imagetitle
 {
-    background-color:#132543;
+
     height: 350px;
     width: 45%;
     float: right;

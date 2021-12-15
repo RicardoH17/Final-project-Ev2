@@ -8,6 +8,11 @@
     font-family: "NewYork";
     src: local("NewYork"), url(../assets/NewYork.otf) format("truetype");
 }
+@font-face 
+{
+    font-family: "Moderno";
+    src: local("Moderno"), url(../assets/ModernSans-Light.otf) format("truetype")
+}
 body{
     background-color: whitesmoke;
 }
@@ -148,13 +153,14 @@ border-width: 10px;
 }
 .bedt
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Moderno;
     color: black ;
     font-size: 40px;
     margin: 50px;
     text-decoration: underline #cba36f;
     text-align: center;
     align-items: center;
+    font-weight: bolder;
 }
 .exec
 {
@@ -165,7 +171,8 @@ float:right;
 /*date and combo box*/
 #rooms
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Moderno;
+    font-weight: bolder;
     color: black;
     font-size: 40px;
     float: left;

@@ -117,7 +117,7 @@ a
     float: left;
     box-sizing: border-box;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Moderno;
     font-size: 20px;
     opacity: 97%;
     text-align: center;
@@ -133,7 +133,7 @@ a
     float: right;
     box-sizing: border-box;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Moderno;
     font-size: 20px;
     opacity: 97%;
     text-align: center;
@@ -146,8 +146,8 @@ a
 }
 .bedr
 {
-width: 400px;
-height:200px;
+width: 550px;
+height:225px;
 border-style: groove;
 border-width: 10px;
 }
@@ -155,11 +155,10 @@ border-width: 10px;
 {
     font-family: Moderno;
     color: black ;
-    font-size: 70px;
+    font-size: 60px;
     margin: 50px;
     text-decoration: underline #cba36f;
     text-align: center;
-    align-items: center;
     font-weight: bolder;
 }
 .exec
@@ -174,10 +173,10 @@ float:right;
     font-family: Moderno;
     font-weight: bolder;
     color: black;
-    font-size: 40px;
+    font-size: 60px;
     float: left;
     margin: 50px;
-    margin-left: 38.5%;
+    margin-left: 33.5%;
     text-align: center;
     text-decoration: underline  #cba36f;
 }
@@ -268,10 +267,9 @@ span
 }
 .foot
 {
-    position: absolute;
+    position: relative;
+    bottom: 0;
     width: 100%;
-    margin-top:80px;
-
 }
 
 /*info*/
@@ -284,12 +282,12 @@ span
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align:center;
         padding-left: 120px;
-        background-color:slategrey;
-            height: 420px;
-            padding: 20px;
-            width: 50%;
-            box-sizing: border-box;
-            color: beige;
+        background-color:#9b876f;
+        height: 50%;
+        padding: 20px;
+        width: 50%;
+        box-sizing: border-box;
+        color: beige;
             font-size: 17px;
             opacity: 98%;
             bottom: 500px;
@@ -297,7 +295,7 @@ span
             float: left;
             margin-left:10px;
             border-radius:30px;
-
+            text-align: justify;
 
 }
 .info2
@@ -306,65 +304,60 @@ span
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:center;
     padding-left: 120px;
-    background-color:slategrey;
-        height: 420px;
-        padding: 20px;
-        width: 50%;
-        box-sizing: border-box;
-        color: beige;
-        font-size: 17px;
+    background-color:#f5b663;
+    height: 50%;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    color: beige;
+     font-size: 17px;
         opacity: 98%;
         bottom: 500px;
         position: relative;
         float: right;
         margin-right:10px;
-        border-radius:30px;
-
-
+    border-radius:30px;
+      text-align: justify;
 }
 
 .imagesdegabo1
 {
-    height: 600px;
+    width:700px; 
+    height: 550px;
     float: left;
     box-sizing: border-box;
-    border-radius: 100px;
-    margin-left:975px;
-
+    border-radius: 20px;
+    margin-left:790px;
 }
 
 .imagesdegabo2
 {
-    
-    height: 600px;
+    width:700px; 
+    height: 550px;
     float: left;
     box-sizing: border-box;
-    border-radius: 100px;
+    border-radius: 20px;
     margin-left:30px;
 
 }
 .imagesdegabo3
 {
-    width:900px;
-    height: 600px;
+    width:700px; 
+    height: 550px;
     float: right;
     box-sizing: border-box;
-    border-radius: 100px;
-    margin-left:975px;
+    border-radius: 20px;
+    margin-left:790px;
 }
 .imagesdegabo4
 {
-    
-    height: 600px;
+    width:700px; 
+    height: 550px;
     float: left;
     box-sizing: border-box;
-    border-radius: 100px;
+    border-radius: 20px;
     margin-left:30px;
 
-width: 400px;
-height:200px;
-border-style: groove;
-border-width: 10px;
 }
 .Whatsaround
 {
@@ -426,4 +419,41 @@ border-width: 10px;
     border-right-style: solid;
     float: right;
     
+}
+/*footer*/
+span
+{
+    padding-left: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.oc
+{
+    
+    font-size: 20px;
+    float: left;
+    margin: 50px;
+    padding-left: 80px;
+
+}
+#afut
+{
+    color: #6e6e6e;
+    text-decoration: underline;
+
+}
+
+#afut:hover
+{
+    color: gray;
+    
+}
+.foot
+{
+    position: absolute;
+    width: 100%;
+    margin-top:80px;
+
 }

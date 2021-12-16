@@ -261,9 +261,10 @@ span
 }
 .foot
 {
-    position: relative;
-    bottom: 0;
+    position: absolute;
     width: 100%;
+    margin-top:80px;
+
 }
 
 /*info*/
@@ -275,6 +276,7 @@ span
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
     padding-left: 120px;
+
 
 
 }
@@ -341,4 +343,65 @@ width: 400px;
 height:200px;
 border-style: groove;
 border-width: 10px;
+}
+.Whatsaround
+{
+    height: 280px;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    border-color: #cba36f;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    border-left-color: #c19b76;
+    border-left-style: solid;
+    border-top-color: #c19b76;
+    border-top-style: solid;
+    border-bottom-color: #c19b76;
+    border-bottom-style: solid;
+    border-right-color: #c19b76;
+    border-right-style: solid;
+    float: left;
+
+   
+    
+  
+
+}
+.Whatsaroundlist
+{
+    background-color: whitesmoke;
+    display: list-item;
+    list-style-type: circle;
+    font-family: Moderno;
+}
+.ImportantInfo
+{
+    height: 100%;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    border-color: #cba36f;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    border-left-color: #c19b76;
+    border-left-style: solid;
+    border-top-color: #c19b76;
+    border-top-style: solid;
+    border-bottom-color: #c19b76;
+    border-bottom-style: solid;
+    border-right-color: #c19b76;
+    border-right-style: solid;
+    float: right;
+    
 }
